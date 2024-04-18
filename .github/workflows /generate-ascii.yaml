@@ -10,5 +10,5 @@ jobs:
 
     - name: install cowsay program
       run: |
-        chmod +X 
-        ./
+        chmod +X script.sh
+        ./script.sh
