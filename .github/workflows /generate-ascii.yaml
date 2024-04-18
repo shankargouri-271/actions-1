@@ -1,0 +1,14 @@
+name: executing shell script
+on: push
+
+jobs:
+  ascii_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4
+
+    - name: install cowsay program
+      run: |
+        chmod +X 
+        ./
